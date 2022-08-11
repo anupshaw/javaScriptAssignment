@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 4px;
+    text-align: center;
+    padding: 1rem 0rem;
+    /* margin: 1rem; */
+    background-color: green;
+    color: white;
+}
+#container
+{
+    width: 100vw;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+form{
+    margin-top:12px;
+    width:30rem;
+    height:15rem;
+    border: 2px grey solid;
+}
+ul li{
+    border: 1px grey solid;
+    margin:5px;
+    padding:2px;
+    list-style: none;
+}
+h2{
+    margin:3px 0px 3px 5px;
+    
+}
+#text{
+    margin-left: 5px;
+}
+input[type="submit"]{
+    background:black;
+    color:white;
+    padding:3px
+    /* border:0px; */
+}
