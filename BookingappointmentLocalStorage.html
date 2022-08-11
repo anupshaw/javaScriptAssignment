@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BookingappointmentLocalStorage.css">
+</head>
+
+<body style="background-image:url(1900901.webp)">
+    <div id="container">
+        <div id="child">
+            
+            <form id="my_form" method="get" action="">
+                <fieldset id="my_fieldset" style="background-color:white;border:1px solid orangered;border-radius: 15px;">
+                    <p id="p1" style="text-align:center;color:orangered">Book a call</p>
+                    <h2 id="error" style="text-align:center;color:white;background-color:red"></h2>
+                    <p id="p2" style="text-align:center;">Book a slot and our representive will call you within 1hr of
+                        second time.</p>
+                    <hr style="width:95%;height: 1px;margin:0px 10px;color:black;background-color:black">
+                    <div class="l1">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="t1">
+                        <input id='name' type="text" name="name" autocomplete="off" required><br>
+                    </div>
+                    <div class="l1">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="t1">
+                        <input id='email' type="email" name="email" autocomplete="off" required><br>
+                    </div>
+                    <div class="l1">
+                        <label for="Phone">Phone</label>
+                    </div>
+                    <div class="t1">
+                        <input id='tel'  type="tel" name="name" autocomplete="off" required><br>
+                    </div>
+                    <div class="l1">
+                        <label for="time">Time for call</label>
+                    </div>
+                    <div class="t1">
+                        <input id='date' type="date" name="date" required>
+                        <input id='time' type="time" name="time" required>
+                    </div>
+                    <div id="button">
+                        <input id="btn" type="submit" value="GET A CALL"  style="cursor: pointer;">
+                    </div>
+                </fieldset>
+
+            </form>
+            <ul id="user"></ul>
+        </div>
+    </div>
+    <script src="BookingappointmentLocalStorage.js"></script>
+</body>
+
+</html>
