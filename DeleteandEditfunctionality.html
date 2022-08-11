@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DeleteandEditfunctionality.css">
+</head>
+
+<body>
+    <!-- <header id="header">Item Lister1</header> -->
+    <header id="header">
+        <div id='header1' class="header1">
+            <h1 id="header-title">Item Lister1</h1>
+        </div>
+        <div id='header2' class="header1">
+            <input id='filter' type="text" class="form-control" id="filter" placeholder="Search Items...">
+        </div>
+    </header>
+    <div id="container">
+        <div id="child">
+            
+            <form id='my_form' method="" action="">
+                <div id="sticky">
+                    <h2 id="title1">Add Items</h2>
+                    <input type="text" id="text" name="text">
+                    <input id='submit' type="submit">
+                <h2 id="title2" class="title">Items</h2>
+            </div>
+                <div id="item">
+                    <ul id="items" class="list-group">
+                        <li class="list-group-item">Item 1 <button
+                                class="btn btn-danger btn-sm float-right delete">X</button></li>
+                        <li class="list-group-item">Item 2 <button
+                                class="btn btn-danger btn-sm float-right delete">X</button></li>
+                        <li class="list-group-item">Item 3 <button
+                                class="btn btn-danger btn-sm float-right delete">X</button></li>
+                        <li class="list-group-item">Item 4 <button
+                                class="btn btn-danger btn-sm float-right delete">X</button></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="DeleteandEditFunctionality.js"></script>
+</body>
+
+</html>
